@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> COLLEGE WEBSITE</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            background-color:white;
+            
+        }
+
+        header{
+            background-color: rgb(254, 255, 255);
+            color: brown;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            align-items: center;
+            box-shadow: 2px 2px 10px brown;
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: black;
+            font: bolder;
+            transition: all 0.3s ease;
+            
+        }
+        nav a:hover{
+            color: rgb(218, 6, 6);
+            border-radius: 5px;
+            box-shadow: 3px 3px 3px black;
+            transform: translateY(-7px);
+            box-shadow: 4px 4px 15px gray;
+        }
+
+        .Name_section{
+            margin: 2px;
+            margin-top: 0px;
+        }
+        .main{
+            background-color:blanchedalmond;
+            padding: 20px;
+            text-align: justify;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            box-shadow: 2px 2px 10px rgb(17, 19, 20);
+            margin-top: 10px;
+        }
+
+        .main h2{
+            color: black;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+        }
+
+        .main p {
+            color: black;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        
+        .main button{
+            color: black;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            padding: 10px 15px;
+            background-color: rgb(221, 230, 220);
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .main button:hover{
+            color: black;
+            box-shadow: 2px 2px 10px black;
+    
+        }
+        .branch {
+            display: inline-block;
+            width: 80px;
+        }
+
+        .main_image{
+            width: 500px;
+            border-radius: 15px;
+        }
+
+        .about-section{
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 2px 2px 10px rgb(27, 22, 22);
+            transition: all 0.5s ease;
+        }
+
+        .about-section h3 {
+            border-left: 5px solid red;
+            padding-left: 10px;
+            font-size: larger;
+        }
+
+        .about-section:hover {
+            transform: translateY(-7px);
+            box-shadow: 4px 4px 15px gray;
+        }
+
+        .courses-section h4 {
+            border-left: 5px solid red;
+            padding-left: 10px;
+            font-size: larger;
+        }
+
+        .contact-section h5 {
+            border-left: 5px solid red;
+            padding-left: 10px;
+            font-size: larger;
+        }
+
+        .courses-section{
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 2px 2px 10px rgb(27, 22, 22);
+            transition: all 0.5s ease;
+        }
+
+        .courses-section:hover {
+            transform: translateY(-7px);
+            box-shadow: 4px 4px 15px gray;
+        }
+
+        .contact-section{
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 2px 2px 10px rgb(27, 22, 22);
+            transition: all 0.5s ease;
+        }
+
+        .contact-section:hover {
+            transform: translateY(-7px);
+            box-shadow: 4px 4px 15px gray;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class = Name_section>
+    <h1> RMD ENGINEERING COLLEGE </h1>
+    <p> Always welcomes you!!!</p>
+    </div>
+
+    <nav> 
+        <a href="#about"> ABOUT </a>
+        <a href="#courses"> COURSES </a>
+        <a href="#contact"> CONTACT </a>
+        <a href="#"> APPLY NOW </a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section class = main> 
+    <div class = main_text>
+    <h2> WELCOME TO RMD COLLEGE </h2>
+    <P>  One of the top college in TAMILNADU</P>
+    <button> Apply now </button>
+    </div>
+
+    <div class = main_image>
+        <img src= College_image.jpg>
+
+    </div>
+
+</section>
+
+    <section id="about" class="about-section">
+        <h3> ABOUT </h3>
+        <p> One of the top colleges in Tamilnadu. Popularly known for its education and food.RMDEC aspires to be a premier institution offering 
+            quality technical education and research with application expertise in Engineering and Technology. <br> <br>
+
+            Interact with corporates, industries and research institutions to
+            work on collaborative projects and sponsored research. <br> <br>
+            
+            Develop the students as outstanding professionals by creating an environment that would nurture creativity, academic excellence, 
+            professionalism, high standard of ethics, sense of responsibility and respect for individuals. <br> <br>
+            
+            Establish centers of excellence to impart Domain Specific industry skills
+            Encourage the faculty to excel in their teaching and research careers. <br> <br>
+            
+            Contribute more to the education and training of rural folk as societal obligation.
+         </p>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <h4> COURSES </h4>
+        <ul>
+            <li> <span class = branch> CSE </span>- Computer Science Engineering </li>
+            <li> <span class = branch> ECE </span>- Electronics and Communication Engineering</li>
+            <li> <span class = branch> EEE </span>- Electrical and Electronics</li>
+            <li> <span class = branch> AI & ML </span>- Artificial Intelligence and Machine Language</li>
+            <li> <span class = branch> IT </span>- Information Technology</li>
+            <li> <span class = branch> BIO-TECH </span>- Bio Technology Engineering</li>
+            <li> <span class = branch> CIVIL </span>- Civil Engineering</li>
+            <li> <span class = branch> MECH </span>- Mechanical Engineering</li>
+            <li> <span class = branch> CSBS </span>- Computer Science and Business System </li>
+            <li> <span class = branch> S&H </span>- Science & Humanities</li>
+
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h5> CONTACT </h5>
+        <p> EMAIL - rmdengineeringcollege@gamil.com <br> <br>
+            PH NO - 9998887654 <br><br>
+            ADDRESS - R.M.D Engineering College,
+
+R.S.M Nagar,
+
+Kavaraipettai,
+
+Gummidipoondi Taluk,
+
+Tiruvallur District,
+
+Tamil Nadu Pin code: 601 206.
+        </p>
+    </section>
+
+</div> 
+
+</section>
+
+</body>
+</html>
